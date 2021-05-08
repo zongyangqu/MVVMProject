@@ -35,9 +35,7 @@ public abstract class MvvmFragment<V extends ViewDataBinding, VM extends MvvmBas
 
     public abstract int getBindingVariable();
 
-    public abstract
-    @LayoutRes
-    int getLayoutId();
+    public abstract  @LayoutRes int getLayoutId();
 
     public abstract VM getViewModel();
 

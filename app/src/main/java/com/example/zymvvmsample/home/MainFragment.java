@@ -12,6 +12,7 @@ import com.example.base.core.autoservice.XiangxueServiceLoader;
 import com.example.base.core.fragment.MvvmFragment;
 import com.example.base.core.viewmodel.MvvmBaseViewModel;
 import com.example.common.autoservice.INewsService;
+import com.example.weather.ui.WeatherFragment;
 import com.example.zymvvmsample.R;
 import com.example.zymvvmsample.databinding.FragmentAppHomeBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationItemView;
@@ -42,7 +43,7 @@ import q.rorbin.badgeview.QBadgeView;
 public class MainFragment extends MvvmFragment<FragmentAppHomeBinding, MvvmBaseViewModel, Fragment> {
     private INewsService iNewsService = XiangxueServiceLoader.load(INewsService.class);
     private Fragment mHomeFragment;
-    private CategoryFragment mCategoryFragment = new CategoryFragment();
+    private WeatherFragment mCategoryFragment = new WeatherFragment();
     private ServiceFragment mServiceFragment = new ServiceFragment();
     private AccountFragment mAccountFragment = new AccountFragment();
     @SuppressLint("RestrictedApi")

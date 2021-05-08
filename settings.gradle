@@ -1,2 +1,2 @@
-include ':app', ':network', ':news', ':base', ':common'
+include ':app', ':network', ':news', ':base', ':common', ':weather'
 rootProject.name='ZYMvvmSample'
